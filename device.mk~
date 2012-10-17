@@ -21,6 +21,6 @@ $(call inherit-product-if-exists, vendor/samsung/p6810/vendor.mk)
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.proximity.xml:system/etc/permissions/android.hardware.sensor.proximity.xml \
-    device/samsung/p6810/init.p6810.rc:root/init.p6810.rc  \
-    device/samsung/p6810/init.p6810.usb.rc:root/init.p6810.usb.rc  \
-    device/samsung/p6810/init.zram:root/sbin/init.zram
+    device/samsung/p6800/init.p6810.rc:root/init.p6810.rc  \
+    device/samsung/p6800/init.p6810.usb.rc:root/init.p6810.usb.rc  \
+    device/samsung/p6800/init.zram:root/sbin/init.zram

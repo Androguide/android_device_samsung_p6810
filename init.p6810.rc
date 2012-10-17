@@ -1,0 +1,11 @@
+import init.p6800.usb.rc
+
+# zram
+service szram /sbin/init.zram
+    class main
+    user root
+    oneshot
+    disabled
+
+on property:sys.boot_completed=1
+    start szram
